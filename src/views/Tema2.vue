@@ -21,7 +21,7 @@
 
     .cont_1_2
       p(data-aos="fade-up") Las bodegas de datos (#[em Data Warehouses]) son el fundamento de cualquier estrategia moderna de inteligencia de negocios. A diferencia de las bases de datos operacionales tradicionales, las bodegas de datos están diseñadas específicamente para el análisis y el soporte a la toma de decisiones. 
-      p.fw-bold(data-aos="fade-right") Sus características principales incluyen:
+      p.fw-bold(data-aos="fade-right") #[b Sus características principales incluyen:]
       .row.mt-4.justify-content-center
         .col-lg.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in" data-aos-duration="800")
           .cont_1_3.h-100.p-4
@@ -96,19 +96,19 @@
             li.d-flex
               .lista-ol--cuadro__vineta
                 span.fw-bold 1
-              span Las dimensiones tienen múltiples niveles de jerarquía
+              span Las dimensiones tienen múltiples niveles de jerarquía.
             li.d-flex
               .lista-ol--cuadro__vineta
                 span.fw-bold 2
-              span El almacenamiento es una preocupación primordial
+              span El almacenamiento es una preocupación primordial.
             li.d-flex
               .lista-ol--cuadro__vineta
                 span.fw-bold 3
-              span La integridad referencial es crítica
+              span La integridad referencial es crítica.
             li.d-flex.mb-0
               .lista-ol--cuadro__vineta
                 span.fw-bold 4
-              span Las dimensiones son compartidas entre múltiples esquemas
+              span Las dimensiones son compartidas entre múltiples esquemas.
       .col-lg-auto.d-none.d-lg-block(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema2/11.png")
@@ -126,7 +126,7 @@
           img(src="@/assets/curso/tema2/19.png")
       .col-lg(data-aos="fade-left")
         p Las metodologías de Kimball e Inmon representan dos filosofías fundamentales pero diferentes para el diseño y la implementación de bodegas de datos. Aunque ambas buscan crear un repositorio de datos empresariales eficiente, sus enfoques difieren significativamente.
-        p.mb-0 La metodología Kimball, también conocida como el enfoque "bottom-up", comienza con la identificación de procesos de negocio específicos y construye data marts interconectados que eventualmente forman una bodega de datos empresarial. Las características principales de este enfoque incluyen:
+        p.mb-0 La metodología Kimball, también conocida como el enfoque "#[em bottom-up]", comienza con la identificación de procesos de negocio específicos y construye #[em data marts] interconectados que eventualmente forman una bodega de datos empresarial. Las características principales de este enfoque incluyen:
       
     .cont_2_1.mt-4
       .row.mt-4.justify-content-center
@@ -135,27 +135,27 @@
             figure.mb-3
               img(src="@/assets/curso/tema2/20.svg")
             p.fw-bold.mb-3 01
-            p Desarrollo incremental por áreas de negocio
+            p Desarrollo incremental por áreas de negocio.
         .col-lg.col-md-6.mb-4.mb-lg-0(data-aos="zoom-in" data-aos-duration="800")
           .cont_1_3.h-100.p-4
             figure.mb-3
               img(src="@/assets/curso/tema2/20.svg")
             p.fw-bold.mb-3 02
-            p Uso consistente de dimensiones conformadas
+            p Uso consistente de dimensiones conformadas.
         .col-lg.col-md-6.mb-4.mb-lg-0(data-aos="zoom-in" data-aos-duration="800")
           .cont_1_3.h-100.p-4
             figure.mb-3
               img(src="@/assets/curso/tema2/20.svg")
             p.fw-bold.mb-3 03
-            p Enfoque en la usabilidad y el rendimiento analítico
+            p Enfoque en la usabilidad y el rendimiento analítico.
         .col-lg.col-md-6.mb-4.mb-lg-0(data-aos="zoom-in" data-aos-duration="800")
           .cont_1_3.h-100.p-4
             figure.mb-3
               img(src="@/assets/curso/tema2/20.svg")
             p.fw-bold.mb-3 04
-            p Mayor flexibilidad y tiempo más rápido hasta el primer resultado
+            p Mayor flexibilidad y tiempo más rápido hasta el primer resultado.
               
-      p.mt-lg-4(data-aos="fade-right") Por su parte, la metodología #[strong Inmon], conocida como el enfoque "#[em top-down]", aboga por la construcción de una bodega de datos empresarial normalizada desde el principio, a partir de la cual se pueden derivar data marts específicos. Este enfoque se distingue por:
+      p.mt-lg-4(data-aos="fade-right") Por su parte, la metodología Inmon, conocida como el enfoque "#[em top-down]", aboga por la construcción de una bodega de datos empresarial normalizada desde el principio, a partir de la cual se pueden derivar data marts específicos. Este enfoque se distingue por:
 
       .row.mt-4.justify-content-center
         .col-lg.col-md-6.mb-4.mb-lg-0(data-aos="zoom-in" data-aos-duration="800")
@@ -163,25 +163,25 @@
             figure.mb-3
               img(src="@/assets/curso/tema2/21.svg")
             p.fw-bold.mb-3 01
-            p Visión empresarial integral desde el inicio
+            p Visión empresarial integral desde el inicio.
         .col-lg.col-md-6.mb-4.mb-lg-0(data-aos="zoom-in" data-aos-duration="800")
           .cont_1_3.h-100.p-4
             figure.mb-3
               img(src="@/assets/curso/tema2/21.svg")
             p.fw-bold.mb-3 02
-            p Datos altamente normalizados en el nivel empresarial
+            p Datos altamente normalizados en el nivel empresarial.
         .col-lg.col-md-6.mb-4.mb-lg-0(data-aos="zoom-in" data-aos-duration="800")
           .cont_1_3.h-100.p-4
             figure.mb-3
               img(src="@/assets/curso/tema2/21.svg")
             p.fw-bold.mb-3 03
-            p Énfasis en la consistencia y la integración de datos
+            p Énfasis en la consistencia y la integración de datos.
         .col-lg.col-md-6.mb-4.mb-lg-0(data-aos="zoom-in" data-aos-duration="800")
           .cont_1_3.h-100.p-4
             figure.mb-3
               img(src="@/assets/curso/tema2/21.svg")
             p.fw-bold.mb-3 04
-            p Mayor inversión inicial pero mejor escalabilidad a largo plazo
+            p Mayor inversión inicial pero mejor escalabilidad a largo plazo.
     
     .row.mt-4.mt-lg-5
       .col-lg(data-aos="fade-right")

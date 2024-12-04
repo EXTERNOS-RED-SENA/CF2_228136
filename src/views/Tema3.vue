@@ -40,7 +40,7 @@
     .titulo-segundo(data-aos="flip-up")
       h2#t_3_2 3.2 Métodos de análisis univariable y multivariable
     
-    p(data-aos="fade-up") La estadística descriptiva proporciona el conjunto de herramientas fundamental para comenzar cualquier análisis exploratorio. A través de medidas de tendencia central, dispersión y forma, los analistas pueden obtener una primera aproximación a la naturaleza de sus datos. Sin embargo, el verdadero poder de la estadística descriptiva radica en su capacidad para revelar aspectos sutiles de los datos que podrían pasar desapercibidos en un examen superficial.
+    p(data-aos="fade-up") El análisis multivariable, por su parte, examina las relaciones entre múltiples variables simultáneamente. Este enfoque es particularmente relevante en el contexto de la inteligencia artificial, donde los modelos frecuentemente deben procesar numerosas variables interrelacionadas. #[strong La complejidad de estas relaciones puede apreciarse mejor a través de la siguiente tabla comparativa:]
 
     .row.mt-4
       .col-lg(data-aos="fade-right")
@@ -49,24 +49,23 @@
             li.d-flex
               .lista-ol--cuadro__vineta
                 span.fw-bold 1
-              span Distribución de frecuencias y visualizaciones básicas
+              span Distribución de frecuencias y visualizaciones básicas.
             li.d-flex
               .lista-ol--cuadro__vineta
                 span.fw-bold 2
-              span Detección de valores atípicos y anomalías
+              span Detección de valores atípicos y anomalías.
             li.d-flex
               .lista-ol--cuadro__vineta
                 span.fw-bold 3
-              span Análisis de valores faltantes
+              span Análisis de valores faltantes.
             li.d-flex
               .lista-ol--cuadro__vineta
                 span.fw-bold 4
-              span Evaluación de la normalidad
+              span Evaluación de la normalidad.
             li.d-flex.mb-0
               .lista-ol--cuadro__vineta
                 span.fw-bold 5
               span Identificación de patrones temporales o secuenciales
-        p.mt-4.mb-0 El análisis multivariable, por su parte, examina las relaciones entre múltiples variables simultáneamente. Este enfoque es particularmente relevante en el contexto de la inteligencia artificial, donde los modelos frecuentemente deben procesar numerosas variables interrelacionadas. #[strong La complejidad de estas relaciones puede apreciarse mejor a través de la siguiente tabla comparativa:]
       .col-lg-auto.d-none.d-lg-block(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema3/4.png")
@@ -79,36 +78,36 @@
         caption.fw-normal #[strong Fuente.] OIT, 2024.
         thead
           tr.text-white.text-center(style="background-color:#03A9F4;")
-            th Tipo de Análisis
-            th Técnicas Principales
-            th Aplicaciones
-            th Consideraciones clave
+            th Tipo de Análisis.
+            th Técnicas Principales.
+            th Aplicaciones.
+            th Consideraciones clave.
         tbody.text-center
           tr.bg-white
-            td Bivariado
-            td Correlación de Pearson, Chi-cuadrado
-            td Relaciones entre pares de variables
-            td Asunciones de linealidad
+            td Bivariado.
+            td Correlación de Pearson, Chi-cuadrado.
+            td Relaciones entre pares de variables.
+            td Asunciones de linealidad.
           tr.bg-white
-            td Regresión múltiple
-            td Mínimos cuadrados, Ridge, Lasso
-            td Predicción de variables continuas
-            td Multicolinealidad
+            td Regresión múltiple.
+            td Mínimos cuadrados, Ridge, Lasso.
+            td Predicción de variables continuas.
+            td Multicolinealidad.
           tr.bg-white
-            td Análisis factorial
-            td PCA, Factor Analysis
-            td Reducción de dimensionalidad
-            td Interpretabilidad de factores
+            td Análisis factorial.
+            td PCA, Factor Analysis.
+            td Reducción de dimensionalidad.
+            td Interpretabilidad de factores.
           tr.bg-white
-            td Análisis de clústeres
-            td K-means, jerárquico
-            td Segmentación de datos
-            td Selección de número de grupos
+            td Análisis de clústeres.
+            td K-means, jerárquico.
+            td Segmentación de datos.
+            td Selección de número de grupos.
           tr.bg-white
-            td Análisis discriminante
-            td LDA, QDA
-            td Clasificación supervisada
-            td Separabilidad de clases
+            td Análisis discriminante.
+            td LDA, QDA.
+            td Clasificación supervisada.
+            td Separabilidad de clases.
     
     Separador
 
@@ -128,8 +127,8 @@
               figure
                 img(src="@/assets/curso/tema3/6.svg")
             .col-md
-              p.mb-0 La selección de la técnica de visualización adecuada depende tanto de la naturaleza de los datos como del objetivo del análisis. Por ejemplo, los diagramas de dispersión resultan invaluables para examinar relaciones entre variables continuas, mientras que los gráficos de calor pueden revelar patrones complejos en matrices de correlación. Los gráficos de caja (box plots) combinan múltiples aspectos de la distribución de datos, mostrando simultáneamente la mediana, cuartiles y valores atípicos.
-        p.mt-4.mb-0 En el contexto del big data y la inteligencia artificial, las técnicas de visualización han evolucionado para manejar volúmenes masivos de datos. Las visualizaciones interactivas permiten a los analistas explorar diferentes niveles de detalle, mientras que las técnicas de reducción de dimensionalidad como t-SNE y UMAP facilitan la visualización de datos altamente dimensionales en espacios bidimensionales o tridimensionales.
+              p.mb-0 La selección de la técnica de visualización adecuada depende tanto de la naturaleza de los datos como del objetivo del análisis. Por ejemplo, los diagramas de dispersión resultan invaluables para examinar relaciones entre variables continuas, mientras que los gráficos de calor pueden revelar patrones complejos en matrices de correlación. Los gráficos de caja (#[b box plots]) combinan múltiples aspectos de la distribución de datos, mostrando simultáneamente la mediana, cuartiles y valores atípicos.
+      p.mt-4.mb-0 En el contexto del #[b big data] y la inteligencia artificial, las técnicas de visualización han evolucionado para manejar volúmenes masivos de datos. Las visualizaciones interactivas permiten a los analistas explorar diferentes niveles de detalle, mientras que las técnicas de reducción de dimensionalidad como t-SNE y UMAP facilitan la visualización de datos altamente dimensionales en espacios bidimensionales o tridimensionales.
     
     .row.mt-4
       .col-lg(data-aos="fade-right")

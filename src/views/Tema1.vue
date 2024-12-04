@@ -44,7 +44,7 @@
     .row
       .col-lg(style="place-self:center;" data-aos="fade-right")
         p La normalización es un proceso fundamental en el diseño de bases de datos que busca eliminar redundancias y dependencias problemáticas. Para comprender mejor este proceso, se deben conocer las diferentes formas normales y su impacto en el diseño de bases de datos. Cada forma normal representa un nivel incremental de organización y optimización de la estructura de datos.
-        p.mb-0.fw-bold La siguiente tabla expone una visión general de las principales formas normales, sus objetivos y consideraciones clave:
+        p.mb-0 La siguiente tabla expone una visión general de las principales formas normales, sus objetivos y consideraciones clave:
       .col-lg-auto.d-none.d-lg-block(data-aos="fade-left" style="place-self:center;")
         figure
           img(src="@/assets/curso/tema1/9.png")
