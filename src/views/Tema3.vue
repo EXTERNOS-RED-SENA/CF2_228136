@@ -39,12 +39,10 @@
 
     .titulo-segundo(data-aos="flip-up")
       h2#t_3_2 3.2 Métodos de análisis univariable y multivariable
-    
-    p(data-aos="fade-up") El análisis multivariable, por su parte, examina las relaciones entre múltiples variables simultáneamente. Este enfoque es particularmente relevante en el contexto de la inteligencia artificial, donde los modelos frecuentemente deben procesar numerosas variables interrelacionadas. #[strong La complejidad de estas relaciones puede apreciarse mejor a través de la siguiente tabla comparativa:]
-
     .row.mt-4
       .col-lg(data-aos="fade-right")
-        .p-4.mt-4(style="background-color:#ECF2FF;")
+        p.mb-4 El análisis univariable representa el primer paso en la exploración detallada de cada variable individual dentro de un conjunto de datos. Este análisis fundamental examina la distribución, centralidad, dispersión y forma de cada variable por separado, proporcionando una base sólida para análisis más complejos. Los principales aspectos que se deben considerar en el análisis univariable incluyen:
+        .p-4.mt-4.mb-4(style="background-color:#ECF2FF;")
           ol.lista-ol--cuadro.mb-0
             li.d-flex
               .lista-ol--cuadro__vineta
@@ -66,6 +64,7 @@
               .lista-ol--cuadro__vineta
                 span.fw-bold 5
               span Identificación de patrones temporales o secuenciales
+        p.mb-0 El análisis multivariable, por su parte, examina las relaciones entre múltiples variables simultáneamente. Este enfoque es particularmente relevante en el contexto de la inteligencia artificial, donde los modelos frecuentemente deben procesar numerosas variables interrelacionadas. #[strong La complejidad de estas relaciones puede apreciarse mejor a través de la siguiente tabla comparativa:]
       .col-lg-auto.d-none.d-lg-block(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema3/4.png")
